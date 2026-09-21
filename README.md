@@ -21,6 +21,8 @@
 
 ### 🔐 Cybersecurity & Application Security
 
+<img src="./assets/cyber-defense.svg" width="100%" alt="Cyber Defense System Animation — attacks intercepted by firewall protecting the system"/>
+
 ![OWASP](https://img.shields.io/badge/OWASP-Top%2010-000000?style=for-the-badge&logo=owasp&logoColor=white)
 ![Burp Suite](https://img.shields.io/badge/Burp%20Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
 ![Nmap](https://img.shields.io/badge/Nmap-00457C?style=for-the-badge&logo=nmap&logoColor=white)
@@ -86,10 +88,6 @@ I enjoy understanding how web applications work, identifying security weaknesses
 <div align="center">
 
 <img src="./assets/cyber-banner.svg" width="100%" alt="Cybersecurity Sliding Banner"/>
-
-<img src="https://github-readme-stats.vercel.app/api?username=shreyash9356&show_icons=true&theme=dark&hide_border=true&rank_icon=github" height="170" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreyash9356&layout=compact&theme=dark&hide_border=true" height="170" />
 
 </div>
 
