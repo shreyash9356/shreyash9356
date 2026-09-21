@@ -1,20 +1,16 @@
-<h1 align="center">
-  👋 Hi there, I'm Shreyash
-</h1>
-
+<h1 align="center">👋 Hi there, I'm Shreyash</h1>
 
 <div align="center">
 
-### Application Security | Web Application Security | Secure Software Development
+<p><strong>Application Security &nbsp;|&nbsp; Web Application Security &nbsp;|&nbsp; Secure Software Development</strong></p>
 
-*Building secure applications and learning how to identify and mitigate security vulnerabilities*
+<p><em>Building secure applications and learning how to identify and mitigate security vulnerabilities</em></p>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/shreyash-lambat-3414a0316/)
 [![GitHub](https://img.shields.io/badge/GitHub-shreyash9356-181717?style=for-the-badge&logo=github)](https://github.com/shreyash9356)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-0A66C2?style=for-the-badge&logo=google-chrome)](https://shreyash9356.github.io/portfolio/)
 
 </div>
-
 
 
 ## 🛠️ Security & Tech Stack
@@ -182,11 +178,11 @@ Security-focused application for evaluating password strength and providing secu
 
 | Project | Description |
 |---|---|
-| 🔐 [**SecureAuthX**](https://github.com/shreyash9356/SecureAuthX) | Identity & Access Management platform focused on authentication, authorization, RBAC, MFA, sessions, and multi-tenant access control. |
-| 🚔 [**Police Case Reminder System**](https://github.com/shreyash9356/police-case-reminder-system-showcase) | Case monitoring and reminder system developed for Chandrapur District Police. |
-| 🛡️ [**Suraksha Mantra**](https://github.com/shreyash9356/suraksha-mantra-showcase) | Student cyber-awareness portal developed for Chandrapur Police Department. |
-| 🔑 [**Password Strength Checker**](https://github.com/shreyash9356/Password-Strength-Checker) | Security-focused project for evaluating password strength and providing security recommendations. |
-| 🤖 [**AI Code Reviewer**](https://github.com/shreyash9356/AI-Code-Reviewer) | AI-assisted project focused on automated code analysis and review. |
+| 🔐 [**SecureAuthX**](https://github.com/shreyash9356/SecureAuthX) | IAM platform: auth, RBAC, MFA, sessions, multi-tenant access control. |
+| 🚔 [**Police Case Reminder**](https://github.com/shreyash9356/police-case-reminder-system-showcase) | Case monitoring & reminder system for Chandrapur District Police. |
+| 🛡️ [**Suraksha Mantra**](https://github.com/shreyash9356/suraksha-mantra-showcase) | Student cyber-awareness portal for Chandrapur Police Department. |
+| 🔑 [**Password Strength Checker**](https://github.com/shreyash9356/Password-Strength-Checker) | Evaluates password strength and provides security recommendations. |
+| 🤖 [**AI Code Reviewer**](https://github.com/shreyash9356/AI-Code-Reviewer) | AI-assisted automated code analysis and review. |
 | 🌐 [**Portfolio**](https://shreyash9356.github.io/portfolio/) | Personal portfolio showcasing projects, skills, and professional work. |
 
 ---
