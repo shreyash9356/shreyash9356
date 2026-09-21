@@ -1,0 +1,389 @@
+<svg width="900" height="120" viewBox="0 0 900 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap');
+
+      .bg { fill: #0d1117; }
+      .grid-line { stroke: #00ff4115; stroke-width: 0.5; }
+      .matrix-char {
+        font-family: 'Share Tech Mono', 'Courier New', monospace;
+        font-size: 11px;
+        fill: #00ff41;
+      }
+      .matrix-char-dim {
+        font-family: 'Share Tech Mono', 'Courier New', monospace;
+        font-size: 11px;
+        fill: #00ff4140;
+      }
+      .scan-line {
+        fill: none;
+        stroke: #00ff4130;
+        stroke-width: 1;
+      }
+      .label {
+        font-family: 'Share Tech Mono', 'Courier New', monospace;
+        font-size: 13px;
+        fill: #00ff41;
+        letter-spacing: 3px;
+      }
+      .label-dim {
+        font-family: 'Share Tech Mono', 'Courier New', monospace;
+        font-size: 10px;
+        fill: #00ff4180;
+        letter-spacing: 2px;
+      }
+      .shield-glow {
+        filter: drop-shadow(0 0 6px #00ff41) drop-shadow(0 0 12px #00ff41);
+      }
+      .pulse-ring {
+        fill: none;
+        stroke: #00ff41;
+      }
+      .hex-fill { fill: #00ff4108; stroke: #00ff4130; stroke-width: 0.8; }
+      .hex-fill-active { fill: #00ff4120; stroke: #00ff41; stroke-width: 1; }
+      .binary-text {
+        font-family: 'Share Tech Mono', 'Courier New', monospace;
+        font-size: 9px;
+        fill: #00ff4160;
+      }
+      .glow-line { stroke: #00ff41; stroke-width: 1.5; fill: none; }
+      .dash-line { stroke: #00ff4150; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+      .node-dot { fill: #00ff41; }
+      .node-ring { fill: none; stroke: #00ff41; stroke-width: 1; }
+      .lock-body { fill: none; stroke: #00ff41; stroke-width: 2; }
+      .lock-glow { filter: drop-shadow(0 0 8px #00ff41) drop-shadow(0 0 20px #00ff4180); }
+      .warning-text {
+        font-family: 'Share Tech Mono', 'Courier New', monospace;
+        font-size: 8px;
+        fill: #ff4500;
+        letter-spacing: 1px;
+      }
+      .status-text {
+        font-family: 'Share Tech Mono', 'Courier New', monospace;
+        font-size: 9px;
+        fill: #00ff41;
+        letter-spacing: 1px;
+      }
+      .title-text {
+        font-family: 'Share Tech Mono', 'Courier New', monospace;
+        font-size: 15px;
+        font-weight: bold;
+        fill: #00ff41;
+        letter-spacing: 4px;
+      }
+    </style>
+
+    <!-- Glow filter -->
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="strong-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="red-glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- Clip path -->
+    <clipPath id="main-clip">
+      <rect width="900" height="120" rx="8"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect class="bg" width="900" height="120" rx="8"/>
+  <rect class="bg" width="900" height="120" rx="8" clip-path="url(#main-clip)"/>
+
+  <!-- Grid lines (vertical) -->
+  <g clip-path="url(#main-clip)" opacity="0.4">
+    <line class="grid-line" x1="50"  y1="0" x2="50"  y2="120"/>
+    <line class="grid-line" x1="100" y1="0" x2="100" y2="120"/>
+    <line class="grid-line" x1="150" y1="0" x2="150" y2="120"/>
+    <line class="grid-line" x1="200" y1="0" x2="200" y2="120"/>
+    <line class="grid-line" x1="250" y1="0" x2="250" y2="120"/>
+    <line class="grid-line" x1="300" y1="0" x2="300" y2="120"/>
+    <line class="grid-line" x1="350" y1="0" x2="350" y2="120"/>
+    <line class="grid-line" x1="400" y1="0" x2="400" y2="120"/>
+    <line class="grid-line" x1="450" y1="0" x2="450" y2="120"/>
+    <line class="grid-line" x1="500" y1="0" x2="500" y2="120"/>
+    <line class="grid-line" x1="550" y1="0" x2="550" y2="120"/>
+    <line class="grid-line" x1="600" y1="0" x2="600" y2="120"/>
+    <line class="grid-line" x1="650" y1="0" x2="650" y2="120"/>
+    <line class="grid-line" x1="700" y1="0" x2="700" y2="120"/>
+    <line class="grid-line" x1="750" y1="0" x2="750" y2="120"/>
+    <line class="grid-line" x1="800" y1="0" x2="800" y2="120"/>
+    <line class="grid-line" x1="850" y1="0" x2="850" y2="120"/>
+    <!-- horizontal -->
+    <line class="grid-line" x1="0" y1="30"  x2="900" y2="30"/>
+    <line class="grid-line" x1="0" y1="60"  x2="900" y2="60"/>
+    <line class="grid-line" x1="0" y1="90"  x2="900" y2="90"/>
+  </g>
+
+  <!-- ==================== MATRIX RAIN COLUMNS ==================== -->
+  <!-- Column 1 -->
+  <g clip-path="url(#main-clip)">
+    <text class="matrix-char" x="20" y="14" opacity="0">1
+      <animate attributeName="opacity" values="0;1;0.4;0" dur="2.1s" repeatCount="indefinite" begin="0s"/>
+      <animateTransform attributeName="transform" type="translate" from="0,0" to="0,120" dur="2.1s" repeatCount="indefinite" begin="0s"/>
+    </text>
+    <text class="matrix-char" x="20" y="0" opacity="0">0
+      <animate attributeName="opacity" values="0;0.6;0.2;0" dur="2.1s" repeatCount="indefinite" begin="0.3s"/>
+      <animateTransform attributeName="transform" type="translate" from="0,0" to="0,120" dur="2.1s" repeatCount="indefinite" begin="0.3s"/>
+    </text>
+  </g>
+
+  <!-- Column 2 -->
+  <g clip-path="url(#main-clip)">
+    <text class="matrix-char" x="70" y="14" opacity="0">A
+      <animate attributeName="opacity" values="0;1;0.5;0" dur="1.8s" repeatCount="indefinite" begin="0.5s"/>
+      <animateTransform attributeName="transform" type="translate" from="0,0" to="0,120" dur="1.8s" repeatCount="indefinite" begin="0.5s"/>
+    </text>
+    <text class="matrix-char-dim" x="70" y="0" opacity="0">F
+      <animate attributeName="opacity" values="0;0.4;0.1;0" dur="1.8s" repeatCount="indefinite" begin="0.8s"/>
+      <animateTransform attributeName="transform" type="translate" from="0,0" to="0,120" dur="1.8s" repeatCount="indefinite" begin="0.8s"/>
+    </text>
+  </g>
+
+  <!-- Column 3 -->
+  <g clip-path="url(#main-clip)">
+    <text class="matrix-char" x="120" y="14" opacity="0">7
+      <animate attributeName="opacity" values="0;1;0.4;0" dur="2.4s" repeatCount="indefinite" begin="1.0s"/>
+      <animateTransform attributeName="transform" type="translate" from="0,0" to="0,120" dur="2.4s" repeatCount="indefinite" begin="1.0s"/>
+    </text>
+  </g>
+
+  <!-- Column 4 -->
+  <g clip-path="url(#main-clip)">
+    <text class="matrix-char" x="780" y="14" opacity="0">E
+      <animate attributeName="opacity" values="0;1;0.4;0" dur="1.9s" repeatCount="indefinite" begin="0.2s"/>
+      <animateTransform attributeName="transform" type="translate" from="0,0" to="0,120" dur="1.9s" repeatCount="indefinite" begin="0.2s"/>
+    </text>
+  </g>
+
+  <!-- Column 5 -->
+  <g clip-path="url(#main-clip)">
+    <text class="matrix-char" x="840" y="14" opacity="0">B
+      <animate attributeName="opacity" values="0;0.8;0.3;0" dur="2.2s" repeatCount="indefinite" begin="0.9s"/>
+      <animateTransform attributeName="transform" type="translate" from="0,0" to="0,120" dur="2.2s" repeatCount="indefinite" begin="0.9s"/>
+    </text>
+  </g>
+
+  <!-- Column 6 -->
+  <g clip-path="url(#main-clip)">
+    <text class="matrix-char" x="870" y="14" opacity="0">9
+      <animate attributeName="opacity" values="0;1;0.4;0" dur="1.6s" repeatCount="indefinite" begin="1.4s"/>
+      <animateTransform attributeName="transform" type="translate" from="0,0" to="0,120" dur="1.6s" repeatCount="indefinite" begin="1.4s"/>
+    </text>
+  </g>
+
+  <!-- ==================== SCANNING LINE ==================== -->
+  <g clip-path="url(#main-clip)" filter="url(#glow)">
+    <line x1="0" y1="60" x2="900" y2="60" stroke="#00ff41" stroke-width="1" opacity="0.15">
+      <animateTransform attributeName="transform" type="translate" from="0,-60" to="0,60" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.25;0.1;0" dur="3s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <!-- ==================== LEFT SECTION: NETWORK NODES ==================== -->
+  <!-- Node connections -->
+  <g filter="url(#glow)" opacity="0.8">
+    <!-- Connection lines -->
+    <line class="dash-line" x1="50" y1="60" x2="95" y2="35">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line class="dash-line" x1="50" y1="60" x2="95" y2="85">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2.5s" repeatCount="indefinite" begin="0.5s"/>
+    </line>
+    <line class="dash-line" x1="95" y1="35" x2="140" y2="50">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="1.8s" repeatCount="indefinite" begin="0.3s"/>
+    </line>
+    <line class="dash-line" x1="95" y1="85" x2="140" y2="70">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2.2s" repeatCount="indefinite" begin="0.7s"/>
+    </line>
+
+    <!-- Data pulse on line 1 -->
+    <circle r="3" fill="#00ff41">
+      <animateMotion path="M50,60 L95,35 L140,50" dur="1.5s" repeatCount="indefinite" begin="0s"/>
+      <animate attributeName="opacity" values="1;0.5;1" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Data pulse on line 2 -->
+    <circle r="2" fill="#00ff41">
+      <animateMotion path="M50,60 L95,85 L140,70" dur="2s" repeatCount="indefinite" begin="0.8s"/>
+      <animate attributeName="opacity" values="0.8;0.3;0.8" dur="2s" repeatCount="indefinite" begin="0.8s"/>
+    </circle>
+
+    <!-- Nodes -->
+    <!-- Central node -->
+    <circle cx="50" cy="60" r="6" class="node-dot" filter="url(#strong-glow)">
+      <animate attributeName="r" values="5;7;5" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="50" cy="60" r="11" class="node-ring">
+      <animate attributeName="r" values="9;14;9" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0.1;0.8" dur="2s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Satellite nodes -->
+    <circle cx="95" cy="35" r="4" class="node-dot">
+      <animate attributeName="opacity" values="1;0.5;1" dur="1.8s" repeatCount="indefinite" begin="0.3s"/>
+    </circle>
+    <circle cx="95" cy="85" r="4" class="node-dot">
+      <animate attributeName="opacity" values="1;0.5;1" dur="2.2s" repeatCount="indefinite" begin="0.6s"/>
+    </circle>
+    <circle cx="140" cy="50" r="3" class="node-dot">
+      <animate attributeName="opacity" values="1;0.4;1" dur="1.5s" repeatCount="indefinite" begin="0.9s"/>
+    </circle>
+    <circle cx="140" cy="70" r="3" class="node-dot">
+      <animate attributeName="opacity" values="1;0.4;1" dur="1.9s" repeatCount="indefinite" begin="0.2s"/>
+    </circle>
+  </g>
+
+  <!-- ==================== CENTER: SHIELD + LOCK ==================== -->
+  <!-- Shield shape -->
+  <g transform="translate(420, 10)" filter="url(#strong-glow)">
+    <!-- Shield path -->
+    <path d="M30,2 L58,14 L58,42 Q58,65 30,78 Q2,65 2,42 L2,14 Z"
+          fill="#00ff4108" stroke="#00ff41" stroke-width="1.5">
+      <animate attributeName="stroke-opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="fill-opacity" values="0.08;0.18;0.08" dur="2s" repeatCount="indefinite"/>
+    </path>
+    <!-- Shield inner line -->
+    <path d="M30,8 L52,18 L52,40 Q52,58 30,70 Q8,58 8,40 L8,18 Z"
+          fill="none" stroke="#00ff4140" stroke-width="1">
+      <animate attributeName="stroke-opacity" values="0.4;0.8;0.4" dur="2.5s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- Lock icon inside shield -->
+    <!-- Lock shackle -->
+    <path d="M22,42 L22,36 Q22,28 30,28 Q38,28 38,36 L38,42"
+          fill="none" stroke="#00ff41" stroke-width="2" stroke-linecap="round">
+      <animate attributeName="stroke-opacity" values="1;0.5;1" dur="1.8s" repeatCount="indefinite"/>
+    </path>
+    <!-- Lock body -->
+    <rect x="18" y="42" width="24" height="18" rx="3"
+          fill="#00ff4120" stroke="#00ff41" stroke-width="1.5">
+      <animate attributeName="fill-opacity" values="0.2;0.4;0.2" dur="1.8s" repeatCount="indefinite"/>
+    </rect>
+    <!-- Keyhole -->
+    <circle cx="30" cy="50" r="3" fill="#00ff41">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="29" y="50" width="2" height="5" rx="1" fill="#00ff41">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Pulse rings around shield -->
+    <ellipse cx="30" cy="40" rx="38" ry="48" fill="none" stroke="#00ff41" stroke-width="1" opacity="0">
+      <animate attributeName="rx" values="30;50;30" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="ry" values="40;60;40" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0;0.6" dur="2.5s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="30" cy="40" rx="38" ry="48" fill="none" stroke="#00ff41" stroke-width="0.5" opacity="0">
+      <animate attributeName="rx" values="30;55;30" dur="2.5s" repeatCount="indefinite" begin="1.2s"/>
+      <animate attributeName="ry" values="40;65;40" dur="2.5s" repeatCount="indefinite" begin="1.2s"/>
+      <animate attributeName="opacity" values="0.4;0;0.4" dur="2.5s" repeatCount="indefinite" begin="1.2s"/>
+    </ellipse>
+  </g>
+
+  <!-- ==================== TITLE + STATUS MESSAGES ==================== -->
+  <!-- Title text -->
+  <text class="title-text" x="450" y="20" text-anchor="middle" filter="url(#glow)">
+    CYBER STATS
+    <animate attributeName="opacity" values="1;0.7;1" dur="3s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Status line 1 -->
+  <text class="status-text" x="450" y="95" text-anchor="middle">
+    <animate attributeName="opacity" values="1;0;1" dur="4s" repeatCount="indefinite" begin="0s"/>
+    [ SYSTEM: SECURED ] [ FIREWALL: ACTIVE ] [ ENCRYPTION: AES-256 ]
+  </text>
+  <text class="status-text" x="450" y="95" text-anchor="middle" opacity="0">
+    <animate attributeName="opacity" values="0;1;0" dur="4s" repeatCount="indefinite" begin="2s"/>
+    [ THREATS: BLOCKED ] [ AUTH: JWT ] [ STATUS: MONITORING ]
+  </text>
+
+  <!-- ==================== BINARY STREAM (bottom) ==================== -->
+  <g clip-path="url(#main-clip)" opacity="0.35">
+    <text class="binary-text" x="-200" y="112">
+      01001000 01000001 01000011 01001011 00100000 01010100 01001000 01000101 00100000 01010000 01001100 01000001 01001110 01000101 01010100
+      <animateTransform attributeName="transform" type="translate" from="0,0" to="1100,0" dur="12s" repeatCount="indefinite"/>
+    </text>
+    <text class="binary-text" x="-900" y="112">
+      11001000 10110101 01010101 00110011 10101010 11001100 01010101 10101010 00111100 11000011 10101010 01010101 11001100 00110011
+      <animateTransform attributeName="transform" type="translate" from="0,0" to="1100,0" dur="12s" repeatCount="indefinite" begin="6s"/>
+    </text>
+  </g>
+
+  <!-- ==================== RIGHT SECTION: HEX GRID + SCAN ==================== -->
+  <!-- Hexagon grid on right -->
+  <g transform="translate(700, 15)" opacity="0.7">
+    <!-- Row 1 -->
+    <polygon points="20,0 40,11 40,34 20,45 0,34 0,11" class="hex-fill">
+      <animate attributeName="class" values="hex-fill;hex-fill-active;hex-fill" dur="3s" repeatCount="indefinite" begin="0s"/>
+    </polygon>
+    <polygon points="65,0 85,11 85,34 65,45 45,34 45,11" class="hex-fill">
+      <animate attributeName="class" values="hex-fill;hex-fill-active;hex-fill" dur="3s" repeatCount="indefinite" begin="1s"/>
+    </polygon>
+    <polygon points="110,0 130,11 130,34 110,45 90,34 90,11" class="hex-fill">
+      <animate attributeName="class" values="hex-fill;hex-fill-active;hex-fill" dur="3s" repeatCount="indefinite" begin="2s"/>
+    </polygon>
+    <!-- Row 2 -->
+    <polygon points="42,34 62,45 62,68 42,79 22,68 22,45" class="hex-fill">
+      <animate attributeName="class" values="hex-fill;hex-fill-active;hex-fill" dur="3s" repeatCount="indefinite" begin="0.5s"/>
+    </polygon>
+    <polygon points="87,34 107,45 107,68 87,79 67,68 67,45" class="hex-fill">
+      <animate attributeName="class" values="hex-fill;hex-fill-active;hex-fill" dur="3s" repeatCount="indefinite" begin="1.5s"/>
+    </polygon>
+
+    <!-- Text inside center hex -->
+    <text x="20" y="27" text-anchor="middle" class="binary-text" font-size="7">
+      <tspan x="20" dy="0">0xFF</tspan>
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </text>
+    <text x="65" y="27" text-anchor="middle" class="binary-text" font-size="7">
+      <tspan x="65" dy="0">AUTH</tspan>
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" begin="0.7s"/>
+    </text>
+    <text x="110" y="27" text-anchor="middle" class="binary-text" font-size="7">
+      <tspan x="110" dy="0">SSL</tspan>
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" begin="1.4s"/>
+    </text>
+  </g>
+
+  <!-- Right corner warning blink -->
+  <g transform="translate(860, 8)" filter="url(#red-glow)">
+    <rect width="32" height="14" rx="3" fill="#ff450010" stroke="#ff4500" stroke-width="1">
+      <animate attributeName="stroke-opacity" values="1;0.1;1" dur="1s" repeatCount="indefinite"/>
+      <animate attributeName="fill-opacity" values="0.1;0.3;0.1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+    <text x="16" y="10" text-anchor="middle" class="warning-text" fill="#ff4500" font-size="7">
+      SCAN
+      <animate attributeName="opacity" values="1;0.1;1" dur="1s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- ==================== CORNER BRACKETS ==================== -->
+  <!-- Top-left -->
+  <path d="M5,18 L5,5 L18,5" stroke="#00ff41" stroke-width="2" fill="none" filter="url(#glow)">
+    <animate attributeName="opacity" values="1;0.4;1" dur="3s" repeatCount="indefinite"/>
+  </path>
+  <!-- Top-right -->
+  <path d="M895,18 L895,5 L882,5" stroke="#00ff41" stroke-width="2" fill="none" filter="url(#glow)">
+    <animate attributeName="opacity" values="1;0.4;1" dur="3s" repeatCount="indefinite" begin="1.5s"/>
+  </path>
+  <!-- Bottom-left -->
+  <path d="M5,102 L5,115 L18,115" stroke="#00ff41" stroke-width="2" fill="none" filter="url(#glow)">
+    <animate attributeName="opacity" values="1;0.4;1" dur="3s" repeatCount="indefinite" begin="0.8s"/>
+  </path>
+  <!-- Bottom-right -->
+  <path d="M895,102 L895,115 L882,115" stroke="#00ff41" stroke-width="2" fill="none" filter="url(#glow)">
+    <animate attributeName="opacity" values="1;0.4;1" dur="3s" repeatCount="indefinite" begin="2.3s"/>
+  </path>
+
+  <!-- Border glow -->
+  <rect x="1" y="1" width="898" height="118" rx="8" fill="none" stroke="#00ff41" stroke-width="1" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="4s" repeatCount="indefinite"/>
+  </rect>
+</svg>

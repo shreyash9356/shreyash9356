@@ -85,6 +85,8 @@ I enjoy understanding how web applications work, identifying security weaknesses
 
 <div align="center">
 
+<img src="./assets/cyber-animation.svg" width="100%" alt="Cybersecurity Animation"/>
+
 <img src="https://github-readme-stats.vercel.app/api?username=shreyash9356&show_icons=true&theme=dark&hide_border=true&rank_icon=github" height="170" />
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreyash9356&layout=compact&theme=dark&hide_border=true" height="170" />
