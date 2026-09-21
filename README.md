@@ -48,15 +48,42 @@ I enjoy understanding how web applications work, identifying security weaknesses
 
 ## 🛠️ Tech Stack
 
-**Languages** &nbsp;·&nbsp; Python &nbsp;·&nbsp; Java &nbsp;·&nbsp; C++ &nbsp;·&nbsp; JavaScript &nbsp;·&nbsp; HTML &nbsp;·&nbsp; CSS
+### 💻 Languages
 
-**Frameworks** &nbsp;·&nbsp; Django &nbsp;·&nbsp; Django REST Framework &nbsp;·&nbsp; React &nbsp;·&nbsp; React Native &nbsp;·&nbsp; Flask &nbsp;·&nbsp; PostgreSQL
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white)
 
-**Security** &nbsp;·&nbsp; JWT &nbsp;·&nbsp; REST API Security &nbsp;·&nbsp; RBAC &nbsp;·&nbsp; Authentication &nbsp;·&nbsp; Authorization &nbsp;·&nbsp; IAM
+### 🌐 Frameworks & Technologies
 
-**Tools** &nbsp;·&nbsp; Git &nbsp;·&nbsp; VS Code &nbsp;·&nbsp; Linux &nbsp;·&nbsp; Windows
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![Django REST Framework](https://img.shields.io/badge/Django%20REST%20Framework-A30000?style=for-the-badge&logo=django&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![React Native](https://img.shields.io/badge/React%20Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+
+### 🔑 Security Technologies
+
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![REST API](https://img.shields.io/badge/REST%20API-005571?style=for-the-badge&logo=fastapi&logoColor=white)
+![RBAC](https://img.shields.io/badge/RBAC-4B5563?style=for-the-badge)
+![Authentication](https://img.shields.io/badge/Authentication-2563EB?style=for-the-badge)
+![Authorization](https://img.shields.io/badge/Authorization-7C3AED?style=for-the-badge)
+
+### 🧰 Tools & Platforms
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 
 ---
+
 
 ## 📊 GitHub Stats
 
