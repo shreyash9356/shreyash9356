@@ -4,61 +4,29 @@
 
 <p><strong>Application Security &nbsp;|&nbsp; Web Application Security &nbsp;|&nbsp; Secure Software Development</strong></p>
 
-<p><em>Building secure applications and learning how to identify and mitigate security vulnerabilities</em></p>
+<p><em>Building secure applications and learning how to identify and mitigate security vulnerabilities.</em></p>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/shreyash-lambat-3414a0316/)
-[![GitHub](https://img.shields.io/badge/GitHub-shreyash9356-181717?style=for-the-badge&logo=github)](https://github.com/shreyash9356)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-0A66C2?style=for-the-badge&logo=google-chrome)](https://shreyash9356.github.io/portfolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shreyash-lambat-3414a0316/)
+[![GitHub](https://img.shields.io/badge/GitHub-shreyash9356-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/shreyash9356)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-0A66C2?style=flat-square&logo=google-chrome&logoColor=white)](https://shreyash9356.github.io/portfolio/)
 
 </div>
 
+---
 
-## 🛠️ Security & Tech Stack
+## 🔐 Cybersecurity & Application Security
 
-### 🔐 Cybersecurity & Application Security
+<img src="./assets/cyber-defense.svg" width="100%" alt="Cyber Defense System — attacks intercepted by firewall protecting the system"/>
 
-<img src="./assets/cyber-defense.svg" width="100%" alt="Cyber Defense System Animation — attacks intercepted by firewall protecting the system"/>
+<div align="center">
 
-![OWASP](https://img.shields.io/badge/OWASP-Top%2010-000000?style=for-the-badge&logo=owasp&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/Burp%20Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-00457C?style=for-the-badge&logo=nmap&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
-![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
+![OWASP](https://img.shields.io/badge/OWASP%20Top%2010-000000?style=flat-square&logo=owasp&logoColor=white)
+![Burp Suite](https://img.shields.io/badge/Burp%20Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
+![Nmap](https://img.shields.io/badge/Nmap-00457C?style=flat-square)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
+![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
 
-### 💻 Languages
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white)
-
-### 🌐 Frameworks & Technologies
-
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![Django REST Framework](https://img.shields.io/badge/Django%20REST%20Framework-A30000?style=for-the-badge&logo=django&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![React Native](https://img.shields.io/badge/React%20Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-
-### 🔑 Security Technologies
-
-![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
-![REST API](https://img.shields.io/badge/REST%20API-005571?style=for-the-badge&logo=fastapi&logoColor=white)
-![RBAC](https://img.shields.io/badge/RBAC-4B5563?style=for-the-badge)
-![Authentication](https://img.shields.io/badge/Authentication-2563EB?style=for-the-badge)
-![Authorization](https://img.shields.io/badge/Authorization-7C3AED?style=for-the-badge)
-
-### 🧰 Tools & Platforms
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-
+</div>
 
 ---
 
@@ -78,6 +46,17 @@ I enjoy understanding how web applications work, identifying security weaknesses
 
 ---
 
+## 🛠️ Tech Stack
+
+**Languages** &nbsp;·&nbsp; Python &nbsp;·&nbsp; Java &nbsp;·&nbsp; C++ &nbsp;·&nbsp; JavaScript &nbsp;·&nbsp; HTML &nbsp;·&nbsp; CSS
+
+**Frameworks** &nbsp;·&nbsp; Django &nbsp;·&nbsp; Django REST Framework &nbsp;·&nbsp; React &nbsp;·&nbsp; React Native &nbsp;·&nbsp; Flask &nbsp;·&nbsp; PostgreSQL
+
+**Security** &nbsp;·&nbsp; JWT &nbsp;·&nbsp; REST API Security &nbsp;·&nbsp; RBAC &nbsp;·&nbsp; Authentication &nbsp;·&nbsp; Authorization &nbsp;·&nbsp; IAM
+
+**Tools** &nbsp;·&nbsp; Git &nbsp;·&nbsp; VS Code &nbsp;·&nbsp; Linux &nbsp;·&nbsp; Windows
+
+---
 
 ## 📊 GitHub Stats
 
@@ -88,7 +67,6 @@ I enjoy understanding how web applications work, identifying security weaknesses
 </div>
 
 ---
-
 
 ## 💼 Professional Work
 
@@ -102,7 +80,6 @@ I enjoy understanding how web applications work, identifying security weaknesses
 - Contributing to projects including **Mechatron Techgear's corporate website** and **Shops In City**.
 
 ---
-
 
 ## 🔐 Security & Engineering Projects
 
@@ -142,6 +119,18 @@ Security-focused application for evaluating password strength and providing secu
 
 ---
 
+## 📌 Featured Projects
+
+| Project | Description |
+|---|---|
+| 🔐 [**SecureAuthX**](https://github.com/shreyash9356/SecureAuthX) | IAM platform: auth, RBAC, MFA, sessions, multi-tenant access control. |
+| 🚔 [**Police Case Reminder**](https://github.com/shreyash9356/police-case-reminder-system-showcase) | Case monitoring & reminder system for Chandrapur District Police. |
+| 🛡️ [**Suraksha Mantra**](https://github.com/shreyash9356/suraksha-mantra-showcase) | Student cyber-awareness portal for Chandrapur Police Department. |
+| 🔑 [**Password Strength Checker**](https://github.com/shreyash9356/Password-Strength-Checker) | Evaluates password strength and provides security recommendations. |
+| 🤖 [**AI Code Reviewer**](https://github.com/shreyash9356/AI-Code-Reviewer) | AI-assisted automated code analysis and review. |
+| 🌐 [**Portfolio**](https://shreyash9356.github.io/portfolio/) | Personal portfolio showcasing projects, skills, and professional work. |
+
+---
 
 ## 🌱 Currently Learning
 
@@ -153,7 +142,6 @@ Security-focused application for evaluating password strength and providing secu
 - 🎯 Practical security labs and attack techniques using **PortSwigger Web Security Academy**
 
 ---
-
 
 ## 🏆 Certifications & Achievements
 
@@ -171,18 +159,5 @@ Security-focused application for evaluating password strength and providing secu
 
 - 🚔 **Cybersecurity Internship — Cyber Police Station, Chandrapur**  
   Six-month internship focused on cybersecurity, digital forensics, cybercrime investigation, and software projects for Chandrapur Police Department | 2026
-
----
-
-## 📌 Featured Projects
-
-| Project | Description |
-|---|---|
-| 🔐 [**SecureAuthX**](https://github.com/shreyash9356/SecureAuthX) | IAM platform: auth, RBAC, MFA, sessions, multi-tenant access control. |
-| 🚔 [**Police Case Reminder**](https://github.com/shreyash9356/police-case-reminder-system-showcase) | Case monitoring & reminder system for Chandrapur District Police. |
-| 🛡️ [**Suraksha Mantra**](https://github.com/shreyash9356/suraksha-mantra-showcase) | Student cyber-awareness portal for Chandrapur Police Department. |
-| 🔑 [**Password Strength Checker**](https://github.com/shreyash9356/Password-Strength-Checker) | Evaluates password strength and provides security recommendations. |
-| 🤖 [**AI Code Reviewer**](https://github.com/shreyash9356/AI-Code-Reviewer) | AI-assisted automated code analysis and review. |
-| 🌐 [**Portfolio**](https://shreyash9356.github.io/portfolio/) | Personal portfolio showcasing projects, skills, and professional work. |
 
 ---
